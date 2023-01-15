@@ -4,15 +4,8 @@
 
 Goal of the Project
 1. Using [Pushshift's](https://github.com/pushshift/api) API, you'll collect posts from two subreddits of your choosing.
-2. You'll then use NLP to train a classifier on which subreddit a given post came from. This is a binary classification problem.
+2. Used NLP to train a classifier on which subreddit a given post came from. This is a binary classification problem.
 
-
-#### About the API
-
-Pushshift's API is fairly straightforward. For example, if I want the posts from [`/r/boardgames`](https://www.reddit.com/r/boardgames), all I have to do is use the following url: https://api.pushshift.io/reddit/search/submission?subreddit=boardgames
-
-
-**NOTE:** Pushshift now limits you to 100 posts per request (no longer the 500 in the screencast).
 
 ---
 
